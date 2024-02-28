@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @RestController
-@CrossOrigin(origins = "http://240205-angular-demo.s3-website-us-east-1.amazonaws.com/", allowedHeaders = {"Content-Type", "username", "Access-Control-Allow-Origin, Access-Control-Allow-Credentials"})
+@CrossOrigin(origins = "http://240205-deploy-angular-app.s3-website-us-east-1.amazonaws.com/", allowedHeaders = {"Content-Type", "username", "Access-Control-Allow-Origin, Access-Control-Allow-Credentials"})
 @RequestMapping("/users")
 public class UserController {
 
