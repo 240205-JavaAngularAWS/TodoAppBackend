@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import static org.springframework.http.HttpStatus.*;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200/", allowedHeaders = {"Content-Type", "username", "listId"})
+@CrossOrigin(origins = "http://240205-angular-demo.s3-website-us-east-1.amazonaws.com/", allowedHeaders = {"Content-Type", "username", "listId"})
 @RequestMapping("/todos")
 public class TodoController {
 
